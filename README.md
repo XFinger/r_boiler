@@ -6,10 +6,9 @@ Easy boilerplate for rails api application with devise, jwt, and Users table see
 
 ### Gems:
  - devise
- - devise-jwt
+ - devise_token_auth
  - mysql2
- - awsome print for printing awesomely
- - mailcatcher for dev mail
+ - awesome print for printing awesomely
  - rack-cors
 
 
@@ -25,6 +24,10 @@ Easy boilerplate for rails api application with devise, jwt, and Users table see
 - Update seeds.rb to fit your seeding needs
 - Seed the DB: *rake db:seed*
 
+### Use mailcatcher for catching mail in dev.
+
+ - *gem install mailcatcher* 
+ - *mailcatcher* to start it up
 
 ### Routes:
 	    new_user_session GET    /auth/sign_in(.:format)        devise_token_auth/sessions#new
