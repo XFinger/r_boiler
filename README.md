@@ -23,6 +23,9 @@ Easy boilerplate for rails api application with devise, jwt, and Users table see
 - update secret in devise config file: *rake secret*
 - Update seeds.rb to fit your seeding needs
 - Seed the DB: *rake db:seed*
+- Remove git remote origin: *git remote rm origin*
+
+
 
 ### Use mailcatcher for catching mail in dev.
 
