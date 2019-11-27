@@ -25,9 +25,9 @@ gem 'puma', '~> 3.7'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
  gem 'rack-cors'
  gem 'awesome_print'
- gem 'devise'
+ gem "devise", ">= 4.7.1" 
  gem 'devise_token_auth'
-
+ gem "nokogiri", ">= 1.10.4"
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
